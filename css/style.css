@@ -1,0 +1,273 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129.52%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+}
+
+h1,
+h2 {
+  font-size: 3.875em;
+  padding-bottom: 65px;
+  max-width: 960px;
+  line-height: 74px;
+}
+
+.shadow {
+  box-shadow: 6px 10px 14px rgba(0, 0, 0, 0.12);
+}
+
+.contain {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+h3 {
+  font-size: 3em;
+  line-height: 53px;
+}
+
+h4 {
+  font-size: 1.75em;
+  padding-right: 87px;
+  text-align: left;
+}
+
+h5 {
+  font-size: 1.625em;
+  text-align: right;
+  text-transform: uppercase;
+  color: #346dff;
+}
+
+h6 {
+  font-size: 1.375em;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+section {
+  margin: 0 auto;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrap {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+header {
+  position: absolute;
+  top: 25px;
+  right: 0px;
+}
+
+.header_menu li {
+  display: inline;
+  margin-right: 20px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
+}
+
+.main {
+  background: url(../img/main_bg.png) 0 0 / cover no-repeat;
+  height: 110vh;
+}
+
+.logo {
+  height: 50vh;
+}
+
+.services {
+  padding-top: 180px;
+}
+
+.services__column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+  flex-wrap: wrap;
+}
+
+.services__column_col {
+  /* background: url(../img/services_card_2_bg.png) 0 0 / cover no-repeat; */
+  height: 650px;
+  width: 450px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.services__col_img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.services__col_text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 54px 20px;
+  color: white;
+}
+
+.services__card_bt {
+  background: #346dff;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 39px;
+  color: #ffffff;
+  padding: 28px 46px;
+}
+
+.separator {
+  background: #346dff;
+  width: 1000px;
+  height: 2px;
+  margin-bottom: 80px;
+}
+
+.privilege {
+  padding-top: 180px;
+}
+
+.privilge__column_1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .privilge__column_1 div::nth-child(2) {
+  padding: 0 30px;
+} */
+
+.privilage__column_col {
+  width: 380px;
+  height: 230px;
+  padding: 0 30px;
+}
+
+.privilage__col_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.privilage__col_txt {
+  font-weight: 500;
+  font-size: 1.25em;
+  line-height: 129.52%;
+}
+
+.bookeeper {
+  padding-bottom: 84px;
+}
+
+.bookeeper__columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bookeeper__columns .bookeeper__col:nth-child(2n) {
+  margin: 0 15px;
+}
+
+.bookeeper__col {
+  height: 582px;
+  width: 284px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 6px 10px 14px rgba(0, 0, 0, 0.12);
+}
+
+.bookeeper__col_title {
+  background: rgba(52, 109, 255, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  margin-bottom: 32px;
+}
+
+.bookeeper__col_title-txt {
+  min-width: 185px;
+}
+
+.bookeper__col_img {
+  margin-right: 9px;
+}
+
+.bookeeper__col_txt {
+  flex: 1 1 auto;
+}
+
+.bookeeper__col_txt-title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.bookeeper__col_txt-p {
+  padding-left: 52px;
+  text-align-last: left;
+  background: url(../img/icons/iconcheck.png) 5px 5px no-repeat;
+}
+
+.bookeeper__col_subtitle {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 129.52%;
+  text-align: center;
+  margin: 0 36px;
+  margin-bottom: 33px;
+}
+
+.bookeper__col_bt {
+  align-self: center;
+  padding: 14px 44px;
+  background: #346dff;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #ffffff;
+  margin-bottom: 54px;
+}
