@@ -21,7 +21,7 @@ h6 {
 h1,
 h2 {
   font-size: 3.875em;
-  padding-bottom: 65px;
+  padding-bottom: 25px;
   max-width: 960px;
   line-height: 74px;
 }
@@ -105,7 +105,7 @@ header {
 .services__column {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 960px;
   flex-wrap: wrap;
 }
@@ -117,6 +117,7 @@ header {
   border-radius: 15px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 25px;
 }
 
 .services__col_img {
@@ -149,7 +150,7 @@ header {
 
 .separator {
   background: #346dff;
-  width: 1000px;
+  width: 80vw;
   height: 2px;
   margin-bottom: 80px;
 }
@@ -195,6 +196,7 @@ header {
 .bookeeper__columns {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .bookeeper__columns .bookeeper__col:nth-child(2n) {
@@ -210,6 +212,7 @@ header {
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 6px 10px 14px rgba(0, 0, 0, 0.12);
+  margin-bottom: 15px;
 }
 
 .bookeeper__col_title {
@@ -270,4 +273,16 @@ header {
   font-size: 1.125em;
   color: #ffffff;
   margin-bottom: 54px;
+}
+
+@media (max-width: 960px) {
+  .services__column {
+    width: 460px;
+  }
+  .section {
+    padding-top: 80px;
+  }
+  .privilege {
+    padding-top: 80px;
+  }
 }
