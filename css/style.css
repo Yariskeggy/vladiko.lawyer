@@ -26,6 +26,10 @@ h2 {
   line-height: 74px;
 }
 
+h1 {
+  margin-bottom: 4vh;
+}
+
 .shadow {
   box-shadow: 6px 10px 14px rgba(0, 0, 0, 0.12);
 }
