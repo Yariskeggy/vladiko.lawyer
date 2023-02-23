@@ -21,7 +21,7 @@ h6 {
 h1,
 h2 {
   font-size: 3.875em;
-  padding-bottom: 25px;
+  padding-bottom: 10vh;
   max-width: 960px;
   line-height: 74px;
 }
@@ -61,6 +61,7 @@ h6 {
 }
 
 section {
+  padding-top: 10vh;
   margin: 0 auto;
   /* height: 100vh; */
   display: flex;
@@ -98,22 +99,22 @@ header {
   height: 50vh;
 }
 
-.services {
-  padding-top: 180px;
-}
+/* .services {
+  padding-top: 10vh;
+} */
 
 .services__column {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 960px;
+  justify-content: space-evenly;
+  width: 900px;
   flex-wrap: wrap;
 }
 
 .services__column_col {
   /* background: url(../img/services_card_2_bg.png) 0 0 / cover no-repeat; */
-  height: 650px;
-  width: 450px;
+  height: 70vh;
+  width: 340px;
   border-radius: 15px;
   position: relative;
   overflow: hidden;
@@ -134,7 +135,7 @@ header {
   align-items: center;
   height: 100%;
   width: 100%;
-  padding: 54px 20px;
+  padding: 30px;
   color: white;
 }
 
@@ -142,22 +143,22 @@ header {
   background: #346dff;
   border-radius: 15px;
   font-weight: 500;
-  font-size: 2em;
+  font-size: 1.7em;
   line-height: 39px;
   color: #ffffff;
-  padding: 28px 46px;
+  padding: 20px 38px;
 }
 
 .separator {
   background: #346dff;
   width: 80vw;
   height: 2px;
-  margin-bottom: 80px;
+  margin-bottom: 10vh;
 }
 
-.privilege {
-  padding-top: 180px;
-}
+/* .privilege {
+  padding-top: 10vh;
+} */
 
 .privilge__column_1 {
   display: flex;
@@ -188,10 +189,10 @@ header {
   font-size: 1.25em;
   line-height: 129.52%;
 }
-
+/* 
 .bookeeper {
-  padding-bottom: 84px;
-}
+  padding-bottom: 10vh;
+} */
 
 .bookeeper__columns {
   display: flex;
@@ -204,7 +205,7 @@ header {
 }
 
 .bookeeper__col {
-  height: 582px;
+  height: 572px;
   width: 284px;
   display: flex;
   flex-direction: column;
@@ -275,6 +276,64 @@ header {
   margin-bottom: 54px;
 }
 
+@media (max-width: 1400px) {
+  body {
+    font-size: 13px;
+  }
+  h1,
+  h2 {
+    font-size: 2.8em;
+    padding-bottom: 4vh;
+  }
+  h3 {
+    font-size: 2.4em;
+  }
+  h4 {
+    font-size: 1.6em;
+  }
+  h5 {
+    font-size: 1.55em;
+  }
+  h6 {
+    font-size: 1.3em;
+  }
+  .header_menu li {
+    font-size: 12px;
+  }
+  .services__column {
+    width: 800px;
+  }
+  .services__column_col {
+    width: 300px;
+  }
+  .services__card_bt {
+    font-size: 1.4em;
+    padding: 12px 38px;
+  }
+  .privilage__col_txt {
+    font-size: 1.18em;
+  }
+  .privilage__column_col {
+    height: 200px;
+  }
+  .bookeeper__col {
+    height: 500px;
+    width: 270px;
+  }
+  .bookeeper__col_title {
+    margin-bottom: 20px;
+  }
+  .bookeeper__col_txt-title {
+    font-size: 15px;
+  }
+  .bookeeper__col_txt {
+    margin-bottom: 20px;
+  }
+  section {
+    padding-top: 4vh;
+  }
+}
+
 @media (max-width: 960px) {
   .services__column {
     width: 460px;
@@ -285,4 +344,44 @@ header {
   .privilege {
     padding-top: 80px;
   }
+}
+
+.lawyer__column {
+  display: flex;
+  align-content: center;
+}
+
+.lawyer__column_col {
+  width: 368px;
+  height: 206px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129.52%;
+}
+
+.lawyer__col_title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: left;
+}
+
+.lawyer__col_a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  color: rgba(52, 109, 255, 0.8);
+  display: block;
 }
