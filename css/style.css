@@ -101,6 +101,7 @@ header {
 .main {
   background: url(../img/main_bg.png) 0 0 / cover no-repeat;
   height: 100vh;
+  width: 100%;
   /* margin-top: 2vh; */
 }
 
