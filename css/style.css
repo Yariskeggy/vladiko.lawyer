@@ -27,6 +27,8 @@ h2 {
 
 h1 {
   padding-bottom: 3vh;
+  text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff, 1px 1px #fff,
+    -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
 
 h2 {
