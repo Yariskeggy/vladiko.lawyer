@@ -402,3 +402,13 @@ header {
   color: rgba(52, 109, 255, 0.8);
   display: block;
 }
+
+@media (max-width: 500px) {
+  h1,
+  h2 {
+    max-width: 380px;
+  }
+  .services__column {
+    width: 400px;
+  }
+}
