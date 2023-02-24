@@ -413,4 +413,7 @@ header {
   .services__column {
     width: 400px;
   }
+  .bookeeper__columns .bookeeper__col:nth-child(2n) {
+    margin: 0 0 15px 0;
+  }
 }
