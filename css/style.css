@@ -21,13 +21,17 @@ h6 {
 h1,
 h2 {
   font-size: 3.875em;
-  padding-bottom: 10vh;
-  max-width: 960px;
+  max-width: 700px;
   line-height: 74px;
 }
 
 h1 {
-  margin-bottom: 4vh;
+  padding-bottom: 3vh;
+}
+
+h2 {
+  padding-bottom: 4vh;
+  font-size: 3em;
 }
 
 .shadow {
@@ -41,7 +45,7 @@ h1 {
 }
 
 h3 {
-  font-size: 3em;
+  font-size: 2.6em;
   line-height: 53px;
 }
 
@@ -65,9 +69,8 @@ h6 {
 }
 
 section {
-  padding-top: 10vh;
   margin: 0 auto;
-  /* height: 100vh; */
+  padding-top: 4vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,7 +80,6 @@ section {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-self: center;
   align-items: center;
 }
 
@@ -91,16 +93,18 @@ header {
   display: inline;
   margin-right: 20px;
   font-family: "Exo 2", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .main {
   background: url(../img/main_bg.png) 0 0 / cover no-repeat;
-  height: 110vh;
+  height: 100vh;
+  /* margin-top: 2vh; */
 }
 
 .logo {
-  height: 50vh;
+  height: 45vh;
+  max-width: 500px;
 }
 
 /* .services {
@@ -117,7 +121,7 @@ header {
 
 .services__column_col {
   /* background: url(../img/services_card_2_bg.png) 0 0 / cover no-repeat; */
-  height: 70vh;
+  height: 520px;
   width: 340px;
   border-radius: 15px;
   position: relative;
@@ -147,10 +151,10 @@ header {
   background: #346dff;
   border-radius: 15px;
   font-weight: 500;
-  font-size: 1.7em;
+  font-size: 1.4em;
   line-height: 39px;
   color: #ffffff;
-  padding: 20px 38px;
+  padding: 10px 28px;
 }
 
 .separator {
@@ -177,8 +181,7 @@ header {
 
 .privilage__column_col {
   width: 380px;
-  height: 230px;
-  padding: 0 30px;
+  padding: 15px 30px;
 }
 
 .privilage__col_title {
@@ -339,6 +342,14 @@ header {
 }
 
 @media (max-width: 960px) {
+  h1,
+  h2 {
+    max-width: 400px;
+  }
+
+  .logo {
+    max-width: 400px;
+  }
   .services__column {
     width: 460px;
   }
