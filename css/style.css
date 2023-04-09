@@ -161,9 +161,13 @@ header {
 
 .separator {
   background: #346dff;
-  width: 80vw;
+  width: 60vw;
   height: 2px;
   margin-bottom: 10vh;
+}
+
+.separator_contacts {
+  width: 80vh;
 }
 
 /* .privilege {
@@ -368,27 +372,36 @@ header {
 .lawyer__column {
   display: flex;
   align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .lawyer__column_col {
-  width: 368px;
-  height: 206px;
-  border-radius: 15px;
+  width: 300px;
+  height: 150px;
+  border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14px;
   line-height: 129.52%;
+  padding: 5px;
+  margin: 10px;
+}
+
+.lawyer__col_icon {
+  height: 40px;
+  margin-right: 5px;
 }
 
 .lawyer__col_title {
   font-family: "Exo 2";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #333333;
@@ -399,10 +412,29 @@ header {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   text-align: right;
   color: rgba(52, 109, 255, 0.8);
   display: block;
+}
+
+.contacts {
+  padding-bottom: 10vh;
+}
+
+.contacts__graf {
+  text-align: center;
+  width: 140px;
+  margin-bottom: 10vh;
+}
+
+.contacts__column {
+  display: flex;
+}
+
+.contacts__col {
+  margin: 0 10px;
+  margin-bottom: 10vh;
 }
 
 @media (max-width: 500px) {
