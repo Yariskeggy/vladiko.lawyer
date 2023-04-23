@@ -391,7 +391,7 @@ header {
   font-weight: 300;
   font-size: 14px;
   line-height: 129.52%;
-  margin: 10px;
+  margin: 15px;
   overflow: auto;
 }
 
@@ -444,12 +444,18 @@ header {
   display: flex;
   flex-wrap: wrap;
   flex: 1 1 auto;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
+  margin: auto 25px;
 }
 
 .lawyer__cards_col {
   max-width: 45%;
+  display: flex;
+}
+
+.cheak__icon {
+  margin: 10px 10px 0 0;
 }
 
 .contacts {
