@@ -441,9 +441,10 @@ header {
 }
 
 .lawyer__cards_column {
+  height: 70%;
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
   justify-content: center;
   align-items: center;
   margin: auto 25px;
