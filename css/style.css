@@ -453,6 +453,7 @@ header {
 .lawyer__cards_col {
   max-width: 45%;
   display: flex;
+  cursor: pointer;
 }
 
 .cheak__icon {

@@ -1,4 +1,10 @@
-alert("Hello, all OK");
-document.querySelector('#cards__col_but').onclick = function () {
-    alert("Pressed Btn");
+b = document.getElementById("cardsColBut");
+
+
+const myFunc = () => {
+    b.addEventListener("click", () => {
+        alert("Pushed");
+    });
 };
+
+myFunc();
