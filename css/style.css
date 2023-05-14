@@ -380,6 +380,33 @@ header {
   flex-wrap: wrap;
 }
 
+.lawyer__column_decsription {
+  position: relative;
+  padding-top: 25px;
+  padding-left: 80px;
+}
+
+.lawyer__Btn_Fwd {
+  position: absolute;
+  left: 15px;
+  height: 36px;
+  width: 36px;
+  background: url(../img/icons/LawyerDescFwd.svg) 0 0 / contain no-repeat;
+}
+
+.lawyer__description_title {
+  margin-bottom: 20px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.lawyer__description_txt {
+  position: absolute;
+  top: 60px;
+}
+
 .lawyer__column_col {
   width: 490px;
   height: 278px;
