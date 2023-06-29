@@ -288,7 +288,7 @@ header {
   background: #346dff;
   border-radius: 15px;
   font-weight: 500;
-  font-size: 1.125em;
+  font-size: 1em;
   color: #ffffff;
   margin-bottom: 54px;
 }
@@ -382,7 +382,7 @@ header {
 
 .lawyer__column_decsription {
   position: relative;
-  padding-top: 25px;
+  padding-top: 30px;
   padding-left: 80px;
 }
 
@@ -404,7 +404,25 @@ header {
 
 .lawyer__description_txt {
   position: absolute;
-  top: 60px;
+  top: 70px;
+  max-width: 300px;
+}
+
+.lawyer__description_txt p {
+  padding-bottom: 25px;
+}
+
+.lawyer__description_icon {
+  position: absolute;
+  right: 25px;
+  top: 130px;
+}
+
+.lawyer__description_price {
+  position: absolute;
+  top: 175px;
+  left: 80px;
+  color: #346dff;
 }
 
 .lawyer__column_col {
@@ -481,6 +499,13 @@ header {
   max-width: 45%;
   display: flex;
   cursor: pointer;
+}
+
+.lawyer__Btn {
+  display: flex;
+  padding: 10px 35px;
+  margin-bottom: 0;
+  border-radius: 10px;
 }
 
 .cheak__icon {
