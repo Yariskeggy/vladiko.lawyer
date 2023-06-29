@@ -103,7 +103,7 @@ header {
 }
 
 .main {
-  background: url(../img/main_bg1.png) 0 0 / cover no-repeat fixed;
+  background: url(../img/main_bg2.png) 0 0 / cover no-repeat fixed;
   height: 100vh;
   /* margin-top: 2vh; */
 }
