@@ -27,8 +27,8 @@ h2 {
 
 h1 {
   padding-bottom: 3vh;
-  text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff, 1px 1px #fff,
-    -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  /* text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff, 1px 1px #fff,
+    -1px -1px #fff, 1px -1px #fff, -1px 1px #fff; */
 }
 
 h2 {
@@ -103,14 +103,19 @@ header {
 }
 
 .main {
-  background: url(../img/main_bg.png) 0 0 / cover no-repeat;
+  background: url(../img/main_bg1.png) 0 0 / cover no-repeat fixed;
   height: 100vh;
   /* margin-top: 2vh; */
 }
 
+.main__h {
+  position: absolute;
+  top: 30vh;
+  right: 15vh;
+}
+
 .logo {
-  max-height: 45vh;
-  max-width: 500px;
+  text-align: right;
 }
 
 /* .services {
