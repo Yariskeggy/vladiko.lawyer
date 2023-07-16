@@ -123,15 +123,41 @@ header {
 }
 
 .main {
-  background: url(../img/main_bg2.png) 0 0 / cover no-repeat fixed;
+  background: url(../img/main_bg3.png) 0 0 / cover no-repeat;
   height: 100vh;
   /* margin-top: 2vh; */
 }
 
 .main__h {
   position: absolute;
-  top: 30vh;
+  top: 25vh;
   right: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__subtitle {
+  color: #333;
+  text-align: center;
+  text-shadow: 1px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Roboto", inherit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 80px;
+}
+
+.main__button {
+  border-radius: 20px;
+  border: 1px solid #333;
+  background: rgba(52, 109, 255, 0.47);
+  padding: 15px 78px;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", inherit;
+  font-size: 20px;
 }
 
 .logo {
