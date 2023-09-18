@@ -386,13 +386,22 @@ header {
   color: rgba(0, 0, 0, 0.8);
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1640px) {
+  h1 {
+    font-size: 60px;
+  }
+  .header_menu li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1440px) {
   body {
     font-size: 13px;
   }
   h1,
   h2 {
-    font-size: 2.8em;
+    font-size: 48px;
     padding-bottom: 4vh;
   }
   h3 {
@@ -408,7 +417,18 @@ header {
     font-size: 1.3em;
   }
   .header_menu li {
-    font-size: 12px;
+    font-size: 11px;
+    margin-right: 15px;
+  }
+  .logo {
+    font-size: 38px;
+  }
+  .main__subtitle {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .main__button {
+    padding: 13px 70px;
   }
   .services__column {
     width: 800px;
@@ -442,6 +462,43 @@ header {
   }
   section {
     padding-top: 4vh;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header_menu li {
+    font-size: 10px;
+    margin-right: 12px;
+  }
+  .logo {
+    font-size: 34px;
+  }
+  .main__h {
+    right: 10vh;
+  }
+  .main__title {
+    padding-bottom: 3vh;
+  }
+  .main__subtitle {
+    margin-bottom: 40px;
+  }
+  .main__button {
+    padding: 10px 66px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 40px;
+  }
+  .header_menu li {
+    font-size: 10px;
+    margin-right: 8px;
+  }
+
+  .logo {
+    font-size: 28px;
   }
 }
 
@@ -638,6 +695,8 @@ header {
 .contacts__col {
   margin: 0 10px;
   margin-bottom: 10vh;
+  width: 60px;
+  height: 60px;
 }
 
 .contacts__col_icon img {
