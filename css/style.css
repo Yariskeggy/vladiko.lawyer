@@ -767,7 +767,7 @@ header {
     font-size: 42px;
   }
   .main {
-    height: 80vh;
+    height: 100vh;
     background-position: -70vh 0;
   }
   .main__h {
@@ -781,6 +781,12 @@ header {
   }
 }
 
+@media (max-width: 560px) and (orientation: portrait) {
+  .bookeeper__columns .bookeeper__col:nth-child(2n) {
+    margin-bottom: 15px;
+  }
+}
+
 @media (max-width: 500px) and (orientation: portrait) {
   h1,
   h2 {
@@ -789,7 +795,7 @@ header {
     font-size: 42px;
   }
   .main {
-    height: 80vh;
+    height: 100vh;
     background-position: -70vh 0;
   }
   .main__h {
