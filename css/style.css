@@ -130,7 +130,7 @@ header {
 
 .main {
   background: url(../img/main_bg3.png) 0 0 / cover no-repeat;
-  height: 100vh;
+  height: 100%;
   /* margin-top: 2vh; */
 }
 
@@ -179,6 +179,12 @@ header {
   font-style: normal;
   line-height: normal;
   text-shadow: 0.5px 0.5px, 0 0 0.2em black;
+}
+
+.about {
+  background: url(../img/about_bg.png) 0 0 / cover no-repeat;
+  height: 100vh;
+  /* margin-top: 2vh; */
 }
 
 /* .services {
