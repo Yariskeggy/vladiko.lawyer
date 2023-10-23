@@ -182,9 +182,37 @@ header {
 }
 
 .about {
-  background: url(../img/about_bg.png) 0 0 / cover no-repeat;
+  background: url(../img/about_bg.png) 0 0 / 100% auto no-repeat;
   height: 100vh;
-  /* margin-top: 2vh; */
+  position: relative;
+}
+
+.about__card {
+  position: absolute;
+  top: 7vh;
+}
+
+.about__card_txt {
+  position: absolute;
+  right: -140px;
+  top: 20vh;
+  width: 900px;
+  padding: 25px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 149.523%;
+  text-indent: 20px;
+}
+
+.about__card_txt p {
+  margin-bottom: 15px;
+}
+
+.about__card_txt p:last-child {
+  margin-bottom: 0;
 }
 
 /* .services {
@@ -623,6 +651,19 @@ header {
   .main__button {
     padding: 13px 70px;
   }
+  .about__card_txt {
+    width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 15px;
+  }
+  .about__card_txt p {
+    margin-bottom: 12px;
+  }
+
+  .about__card_txt p:last-child {
+    margin-bottom: 0;
+  }
   .services__column {
     width: 800px;
   }
@@ -689,7 +730,18 @@ header {
     font-size: 9px;
     margin-right: 4px;
   }
+  .about__card_txt {
+    width: 480px;
+    padding: 15px;
+    font-size: 13px;
+  }
+  .about__card_txt p {
+    margin-bottom: 10px;
+  }
 
+  .about__card_txt p:last-child {
+    margin-bottom: 0;
+  }
   .logo {
     font-size: 28px;
   }
