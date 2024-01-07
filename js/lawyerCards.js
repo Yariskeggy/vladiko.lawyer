@@ -6,15 +6,21 @@ buttons.forEach((button) => {
     button.addEventListener('click', () => {
         // Получаем индекс кнопки
         const index = button.getAttribute('data-index');
+        const indexcol = button.getAttribute('index-col');
+        console.log(indexcol);
         // Получаем блок по индексу
+        const elem = document.querySelector(`.lawyer__cards_column[index-col="${indexcol}"]`);
+        console.log(elem);
         const block = document.querySelector(`.lawyer__column_decsription[data-index="${index}"]`);
+        console.log(block);
 
         // Скрываем остальные блоки
         const blocks = document.querySelectorAll('.lawyer__column_decsription');
-        const elem = document.querySelector(".lawyer__cards_column");
+        const elems = document.querySelectorAll('.lawyer__cards_column');
 
         elem.style.display = 'none';
         block.style.display = 'flex';
+
 
         lawyerBtnFwd.forEach((btn) => {
             btn.addEventListener('click', () => {
@@ -22,7 +28,6 @@ buttons.forEach((button) => {
                 elem.style.display = 'flex';
             })
         });
-
 
     });
 
