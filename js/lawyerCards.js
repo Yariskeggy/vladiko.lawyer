@@ -17,7 +17,8 @@ buttons.forEach((button) => {
         console.log(elem);
         const block = document.querySelector(`.lawyer__column_decsription[data-index="${index}"]`);
         console.log(block);
-
+        // const lawyerBtnFwd = document.querySelector(`.lawyer__Btn_Fwd[index-col="${indexcol}"]`);
+        // console.log(lawyerBtnFwd);
 
         elem.style.display = 'none';
         block.style.display = 'flex';
@@ -29,6 +30,11 @@ buttons.forEach((button) => {
                 elem.style.display = 'flex';
             })
         });
+
+        // lawyerBtnFwd.addEventListener('click', () => {
+        //     block.style.display = 'none';
+        //     elem.style.display = 'flex';
+        // });
 
     });
 
